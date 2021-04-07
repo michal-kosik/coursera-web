@@ -1,0 +1,38 @@
+
+/* sm, md, lg su moje velkosti teraz (povysene o 1 uroven oproti zadaniu */
+
+.navbar {
+    background-color: gray;
+    border: black solid 1px;
+}
+
+.my_content {
+    margin: 8px -13px -13px;
+}
+
+.nav-item {
+    border: black solid 1px;
+    background-color: white;
+}
+
+/* Because of CSS specificity, this is how the text color needs to be changed */
+.navbar-dark .navbar-nav .nav-link
+{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: indigo;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+}
+
+.my-title {
+    padding: 10px 0
+}
+
+.my_menu {
+    background-color: gray;
+    padding-top: 10px;
+}
